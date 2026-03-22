@@ -8,12 +8,30 @@ An end-to-end AI-powered system for real-time human detection and occupancy trac
 
 ---
 
-## Core Technologies & AI Concepts
-* **Deep Learning Frameworks:** OpenCV DNN module for object detection.
-* **Object Tracking:** Implementation of **Centroid Tracking** algorithms to maintain unique IDs for individuals across frames.
+## Core AI Concepts & Technologies
+
+* **Domain:** Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision.
+* **Deep Learning Models:** Integrated **OpenCV's DNN module** for accurate and robust person detection.
+* **Tracking Algorithm:** Implementation of **Centroid Tracking**, maintaining unique IDs across video frames to ensure accurate counting even in challenging conditions.
 * **Logic-Based Counting:** Vector-based analysis to determine entry/exit direction (In/Out) and calculate real-time building occupancy.
-* **Performance Optimization:** Efficient frame processing to ensure real-time execution.
-  
+
+---
+
+## System in Action (Showcase)
+
+| **Entry Monitoring (Frame Breakdown)** | **System Architecture & Logic** |
+| :--- | :--- |
+| <img src="https://raw.githubusercontent.com/RizosConstantinos/AI_Identification_System/main/images/Screenshot%20(127).jpg" width="400" alt="Frame Breakdown"> | <img src="https://raw.githubusercontent.com/RizosConstantinos/AI_Identification_System/main/images/diagr.png" width="400" alt="Architectural Diagram"> |
+| *Visualizing the multi-stage frame processing pipeline, from camera input to detection and classification.* | *The overall system diagram illustrating the data flow from frame capture to final count. (as seen in image_2.png)* |
+
+---
+
+| **Real-Time Entrance & Exit Analysis** | **Integrated Grand Total Logic** |
+| :--- | :--- |
+| <img src="https://raw.githubusercontent.com/RizosConstantinos/AI_Identification_System/main/images/Screenshot%20(51).jpg" width="400" alt="In/Out Counters"> | <img src="https://raw.githubusercontent.com/RizosConstantinos/AI_Identification_System/main/images/Screenshot%20(53).jpg" width="400" alt="Grand Total"> |
+| *Screen with live "Entrance Counter" and "Exit Counter" overlay, demonstrating real-time direction detection. (as seen in image_5.png)* | *Live status showing the unique "Grand Total" logic which prevents double counting and data loss.* |
+
+
 ---
 
 ## Installation & Usage
