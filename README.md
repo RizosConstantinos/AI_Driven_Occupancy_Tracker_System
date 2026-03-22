@@ -1,5 +1,5 @@
-# Automated AI Identification System: A Deep Learning & Computer Vision Approach
-### People Counter & Occupancy Tracker
+# AI-Driven Real-Time Occupancy Tracking System | Deep Learning & Computer Vision
+### Real-Time Human Analytics & Smart Occupancy Monitoring System
 
 ---
 
