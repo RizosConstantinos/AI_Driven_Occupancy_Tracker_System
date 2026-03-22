@@ -19,17 +19,23 @@ An end-to-end AI-powered system for real-time human detection and occupancy trac
 
 ## System in Action (Showcase)
 
-| **Entry Monitoring (Frame Breakdown)** | **System Architecture & Logic** |
+### 1. Detection & Identification Pipeline
+The system processes each frame to detect human figures and assign unique tracking IDs using Centroid Tracking.
+
+| **Initial Frame Detection** | **Unique ID Assignment** |
 | :--- | :--- |
-| <img src="https://github.com/RizosConstantinos/AI_Identification_System/blob/main/images/Screenshot%20(127).png" width="400" alt="Frame Breakdown"> | <img src="https://raw.githubusercontent.com/RizosConstantinos/AI_Identification_System/main/images/diagr.png" width="400" alt="Architectural Diagram"> |
-| *Visualizing the multi-stage frame processing pipeline, from camera input to detection and classification.* | *The overall system diagram illustrating the data flow from frame capture to final count. (as seen in image_2.png)* |
+| ![Frame Detection](images/Screenshot%20(127).jpg) | ![ID Tracking](images/Screenshot%20(122).jpg) |
+| *Step 1: Analyzing the input stream for human features using Deep Learning.* | *Step 2: Assigning persistent IDs to track movement across the scene.* |
 
 ---
 
-| **Real-Time Entrance & Exit Analysis** | **Integrated Grand Total Logic** |
+### 2. Real-Time Counting & Occupancy Logic
+By monitoring the displacement of centroids relative to a virtual boundary, the system triggers "In" or "Out" events.
+
+| **Directional Monitoring** | **Live Occupancy Status** |
 | :--- | :--- |
-| <img src="https://raw.githubusercontent.com/RizosConstantinos/AI_Identification_System/main/images/Screenshot%20(51).jpg" width="400" alt="In/Out Counters"> | <img src="https://raw.githubusercontent.com/RizosConstantinos/AI_Identification_System/main/images/Screenshot%20(53).jpg" width="400" alt="Grand Total"> |
-| *Screen with live "Entrance Counter" and "Exit Counter" overlay, demonstrating real-time direction detection. (as seen in image_5.png)* | *Live status showing the unique "Grand Total" logic which prevents double counting and data loss.* |
+| ![In-Out Monitoring](images/Screenshot%20(120).jpg) | ![Final Status](images/Screenshot%20(54).jpg) |
+| *Step 3: Calculating directional vectors to update entrance and exit counters.* | *Step 4: Providing a real-time 'Grand Total' for building occupancy management.* |
 
 
 ---
