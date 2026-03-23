@@ -110,7 +110,7 @@ The system successfully monitors multiple access points, providing a synchronize
 ## Author
 
 **Rizos Constantinos**
-- LinkedIn: [www.linkedin.com/in/constantinos-rizos-0589b5254](http://www.linkedin.com/in/constantinos-rizos-0589b5254)
+- LinkedIn: [www.linkedin.com/in/rizosconstantinos](https://www.linkedin.com/in/rizosconstantinos/)
 - GitHub: [https://github.com/RizosConstantinos](https://github.com/RizosConstantinos)
 
 ---
